@@ -48,7 +48,7 @@ public class MyMain {
         int previous;
         for (int i = 0; i < 10000; i++) {
             previous = 0;
-            for (int j = 0; j < 12; j++) {
+            for (int j = 0; j < 18; j++) {
                 if (ThreadLocalRandom.current().nextInt(1, 7) == 6) {
                     if (previous == 2) {
                         sixes++;
